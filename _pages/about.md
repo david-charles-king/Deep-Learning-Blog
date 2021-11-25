@@ -4,8 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I'm a software engineer at [Brainlabs](https://www.brainlabsdigital.com/). I'm interested in [Effective Altruism](https://www.effectivealtruism.org/), particularly AI Safety. I love to run, cook and have adventures with my friends and family!
