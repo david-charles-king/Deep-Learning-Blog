@@ -18,7 +18,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "I’m a software engineer at Brainlabs. I’m interested in Effective Altruism, particularly AI Safety. I love to run, cook and have adventures with my friends and family! .",
+          "content": ". I’m a software engineer at Brainlabs. I’m interested in Effective Altruism, particularly AI Safety. I love to run, cook and have adventures with my friends and family! .",
           "url": "https://david-charles-king.github.io/Deep-Learning-Blog/about/",
           "relUrl": "/about/",
           "date": ""
