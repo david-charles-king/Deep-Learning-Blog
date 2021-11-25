@@ -7,7 +7,7 @@ suggests using [fast_template](https://github.com/fastai/fast_template). It also
 suggests looking on the [course website](https://course.fast.ai/) for the latest blog
 recommendations. I couldn't see any blog recommendations on the course website, so I
 searched the forum and found a [post by
-Jermey](https://forums.fast.ai/t/about-the-nbdev-fastpages-category/61743) which
+Jeremy](https://forums.fast.ai/t/about-the-nbdev-fastpages-category/61743) which
 explains the difference between `fast_template` and `fastpages`. It sound like
 `fastpages` has all the features of `fast_template` as well as extra automation and
 features, so I decided to give it a go.
