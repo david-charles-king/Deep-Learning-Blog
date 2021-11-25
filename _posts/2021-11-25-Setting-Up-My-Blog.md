@@ -4,13 +4,11 @@ description: "Details of how I set up this blog"
 layout: post
 toc: true
 comments: true
-# image: images/some_folder/your_image.png
 hide: false
 search_exclude: false
 categories: [setup, fastpages, fast_template]
-metadata_key1: metadata_value1
-metadata_key2: metadata_value2
 ---
+
 # Setting up my blog
 
 ## Choosing between fast_template and fastpages
