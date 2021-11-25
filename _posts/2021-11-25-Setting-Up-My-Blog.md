@@ -1,3 +1,16 @@
+---
+title: "Setting up my blog"
+description: "Details of how I set up this blog"
+layout: post
+toc: true
+comments: true
+# image: images/some_folder/your_image.png
+hide: false
+search_exclude: false
+categories: [setup, fastpages, fast_template]
+metadata_key1: metadata_value1
+metadata_key2: metadata_value2
+---
 # Setting up my blog
 
 ## Choosing between fast_template and fastpages
@@ -22,3 +35,11 @@ Majed which they linked had some extra details which were helpful.
 Page 555 of the book suggests using GitHub Desktop in order to write blog posts locally.
 Because I've used git before, I instead cloned the repository and am writing this in VS
 Code.
+
+## Making the blog post format correctly
+Initially my blog post looked like this:
+
+![Bad formatting](../images/bad_formatting.png)
+
+To get the page to format correctly I had to add Front Matter, following these
+[instructions](https://github.com/fastai/fastpages#customizing-blog-posts-with-front-matter).
