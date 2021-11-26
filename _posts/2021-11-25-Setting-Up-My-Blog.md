@@ -36,9 +36,7 @@ Code.
 ## Making the blog post format correctly
 Initially my blog post looked like this:
 
-<!-- ![Bad formatting](../images/bad_formatting.png) -->
-<!-- ![Bad formatting](images/bad_formatting.png) -->
-![]({{ site.baseurl }}/images/bad_formatting.png "Bad formatting")
+![]({{ site.baseurl }}/images/bad_formatting.png)
 
 To get the page to format correctly I had to add Front Matter, following these
 [instructions](https://github.com/fastai/fastpages#customizing-blog-posts-with-front-matter).
