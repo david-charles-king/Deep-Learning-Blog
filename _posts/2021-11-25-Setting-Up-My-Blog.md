@@ -19,9 +19,10 @@ suggests looking on the [course website](https://course.fast.ai/) for the latest
 recommendations. I couldn't see any blog recommendations on the course website, so I
 searched the forum and found a [post by
 Jeremy](https://forums.fast.ai/t/about-the-nbdev-fastpages-category/61743) which
-explains the difference between `fast_template` and `fastpages`. It sound like
-`fastpages` has all the features of `fast_template` as well as extra automation and
-features, so I decided to give it a go.
+mentions [fastpages](https://github.com/fastai/fastpages) and explains the difference
+between `fast_template` and `fastpages`. It sound like `fastpages` has all the features
+of `fast_template` as well as extra automation and features, so I decided to give it a
+go.
 
 ## Setting up my blog using fastpages
 To set up my blog I followed the [Setup
@@ -37,7 +38,9 @@ Code.
 ## Making the blog post format correctly
 Initially my blog post looked like this:
 
-![Bad formatting](../images/bad_formatting.png)
+<!-- ![Bad formatting](../images/bad_formatting.png) -->
+<!-- ![Bad formatting](images/bad_formatting.png) -->
+![]({{ site.baseurl }}/images/bad_formatting.png "Bad formatting")
 
 To get the page to format correctly I had to add Front Matter, following these
 [instructions](https://github.com/fastai/fastpages#customizing-blog-posts-with-front-matter).
