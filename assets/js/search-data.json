@@ -2,21 +2,21 @@
   
     
         "post0": {
-            "title": "Setting up my blog",
-            "content": "Setting up my blog . Choosing between fast_template and fastpages . In Appendix A the course book suggests using fast_template. It also suggests looking on the course website for the latest blog recommendations. I couldn’t see any blog recommendations on the course website, so I searched the forum and found a post by Jeremy which explains the difference between fast_template and fastpages. It sound like fastpages has all the features of fast_template as well as extra automation and features, so I decided to give it a go. . Setting up my blog using fastpages . To set up my blog I followed the Setup instructions. The video tutorial by Abdul Majed which they linked had some extra details which were helpful. . Writing blog posts locally on my computer . Page 555 of the book suggests using GitHub Desktop in order to write blog posts locally. Because I’ve used git before, I instead cloned the repository and am writing this in VS Code. . Making the blog post format correctly . Initially my blog post looked like this: . . To get the page to format correctly I had to add Front Matter, following these instructions. .",
-            "url": "https://david-charles-king.github.io/Deep-Learning-Blog/setup/fastpages/fast_template/2021/11/25/Setting-Up-My-Blog.html",
-            "relUrl": "/setup/fastpages/fast_template/2021/11/25/Setting-Up-My-Blog.html",
-            "date": " • Nov 25, 2021"
+            "title": "Thoughts after Chapter 2",
+            "content": "Thoughts after Chapter 2 . I was surprised at how image recognizers learn to see different patterns in different layers of the CNN (page 34 - 36 in the book). I found it amazing to get an idea of what’s going on inside the model when it is classifying images. . I was also pleased that there is a focus in the course on the ethics of how to use Machine Learning systems, for example the discussion of how ‘predictive policing’ algorithms can cause a feedback loop and reinforce existing biases. For example in the US there is a bias in arrest rates based on race, and predictive policing algorithms could reinforce these biases. .",
+            "url": "https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html",
+            "relUrl": "/reflection/2021/11/26/Chapter-2.html",
+            "date": " • Nov 26, 2021"
         }
         
     
   
     
         ,"post1": {
-            "title": "Chapter 2",
-            "content": "Questionnaire . Provide an example of where the bear classification model might work poorly in production, due to structural or style differences in the training data. | Where do text models currently have a major deficiency? | What are possible negative societal implications of text generation models? | In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process? | What kind of tabular data is deep learning particularly good at? | What&#39;s a key downside of directly using a deep learning model for recommendation systems? | What are the steps of the Drivetrain Approach? | How do the steps of the Drivetrain Approach map to a recommendation system? | Create an image recognition model using data you curate, and deploy it on the web. | What is DataLoaders? | What four things do we need to tell fastai to create DataLoaders? | What does the splitter parameter to DataBlock do? | How do we ensure a random split always gives the same validation set? | What letters are often used to signify the independent and dependent variables? | What&#39;s the difference between the crop, pad, and squish resize approaches? When might you choose one over the others? | What is data augmentation? Why is it needed? | What is the difference between item_tfms and batch_tfms? | What is a confusion matrix? | What does export save? | What is it called when we use a model for getting predictions, instead of training? | What are IPython widgets? | When might you want to use CPU for deployment? When might GPU be better? | What are the downsides of deploying your app to a server, instead of to a client (or edge) device such as a phone or PC? | What are three examples of problems that could occur when rolling out a bear warning system in practice? | What is &quot;out-of-domain data&quot;? | What is &quot;domain shift&quot;? | What are the three steps in the deployment process? |",
-            "url": "https://david-charles-king.github.io/Deep-Learning-Blog/questionnares/2021/11/25/Chapter-2.html",
-            "relUrl": "/questionnares/2021/11/25/Chapter-2.html",
+            "title": "Setting up my blog",
+            "content": "Setting up my blog . Choosing between fast_template and fastpages . In Appendix A the course book suggests using fast_template. It also suggests looking on the course website for the latest blog recommendations. I couldn’t see any blog recommendations on the course website, so I searched the forum and found a post by Jeremy which explains the difference between fast_template and fastpages. It sound like fastpages has all the features of fast_template as well as extra automation and features, so I decided to give it a go. . Setting up my blog using fastpages . To set up my blog I followed the Setup instructions. The video tutorial by Abdul Majed which they linked had some extra details which were helpful. . Writing blog posts locally on my computer . Page 555 of the book suggests using GitHub Desktop in order to write blog posts locally. Because I’ve used git before, I instead cloned the repository and am writing this in VS Code. . Making the blog post format correctly . Initially my blog post looked like this: . . To get the page to format correctly I had to add Front Matter, following these instructions. .",
+            "url": "https://david-charles-king.github.io/Deep-Learning-Blog/setup/fastpages/fast_template/2021/11/25/Setting-Up-My-Blog.html",
+            "relUrl": "/setup/fastpages/fast_template/2021/11/25/Setting-Up-My-Blog.html",
             "date": " • Nov 25, 2021"
         }
         
