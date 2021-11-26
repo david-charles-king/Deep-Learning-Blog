@@ -86,7 +86,11 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="my-thoughts-on-the-course-so-far">My thoughts on the course so far</h2>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#my-thoughts-on-the-course-so-far">My thoughts on the course so far</a></li>
+<li class="toc-entry toc-h2"><a href="#my-questionnaire-answers">My questionnaire answers</a></li>
+</ul><h2 id="my-thoughts-on-the-course-so-far">
+<a class="anchor" href="#my-thoughts-on-the-course-so-far" aria-hidden="true"><span class="octicon octicon-link"></span></a>My thoughts on the course so far</h2>
 <p>I was surprised at how image recognizers learn to see different patterns in different
 layers of the CNN (page 34 - 36 in the book). I found it amazing to get an idea of
 what’s going on inside the model when it is classifying images.</p>
@@ -97,7 +101,8 @@ algorithms can cause a feedback loop and reinforce existing biases. For example 
 US there is a bias in arrest rates based on race, and predictive policing algorithms
 could reinforce these biases.</p>
 
-<h2 id="my-questionnaire-answers">My questionnaire answers</h2>
+<h2 id="my-questionnaire-answers">
+<a class="anchor" href="#my-questionnaire-answers" aria-hidden="true"><span class="octicon octicon-link"></span></a>My questionnaire answers</h2>
 <ol>
   <li>Provide an example of where the bear classification model might work poorly in production, due to structural or style differences in the training data.
     <ul>
@@ -165,8 +170,10 @@ could reinforce these biases.</p>
   </li>
   <li>What letters are often used to signify the independent and dependent variables?
     <ul>
-      <li>Independent - <code class="language-plaintext highlighter-rouge">x</code></li>
-      <li>Dependent - <code class="language-plaintext highlighter-rouge">y</code></li>
+      <li>Independent - <code class="language-plaintext highlighter-rouge">x</code>
+</li>
+      <li>Dependent - <code class="language-plaintext highlighter-rouge">y</code>
+</li>
     </ul>
   </li>
   <li>What’s the difference between the crop, pad, and squish resize approaches? When might you choose one over the others?
@@ -184,8 +191,10 @@ could reinforce these biases.</p>
   </li>
   <li>What is the difference between <code class="language-plaintext highlighter-rouge">item_tfms</code> and <code class="language-plaintext highlighter-rouge">batch_tfms</code>?
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">item_tfms</code> are <em>item transforms</em>, pieces of code that run on each individual item.</li>
-      <li><code class="language-plaintext highlighter-rouge">batch_tfms</code> are <em>batch transforms</em>, where we apply a piece of code to a batch of items at the same time. Using a GPU, this can save a lot of time.</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">item_tfms</code> are <em>item transforms</em>, pieces of code that run on each individual item.</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">batch_tfms</code> are <em>batch transforms</em>, where we apply a piece of code to a batch of items at the same time. Using a GPU, this can save a lot of time.</li>
     </ul>
   </li>
   <li>What is a confusion matrix?
