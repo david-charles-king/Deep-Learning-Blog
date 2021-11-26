@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Thoughts after Chapter 2 | Deep Learning with Dave</title>
+<title>Chapter 2 | Deep Learning with Dave</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Thoughts after Chapter 2" />
+<meta property="og:title" content="Chapter 2" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="My thoughts on the course so far" />
-<meta property="og:description" content="My thoughts on the course so far" />
+<meta name="description" content="My thoughts on the course so far and answers to the questionnaire" />
+<meta property="og:description" content="My thoughts on the course so far and answers to the questionnaire" />
 <link rel="canonical" href="https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html" />
 <meta property="og:url" content="https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html" />
 <meta property="og:site_name" content="Deep Learning with Dave" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-11-26T00:00:00-06:00" />
 <script type="application/ld+json">
-{"datePublished":"2021-11-26T00:00:00-06:00","url":"https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html","@type":"BlogPosting","dateModified":"2021-11-26T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html"},"headline":"Thoughts after Chapter 2","description":"My thoughts on the course so far","@context":"https://schema.org"}</script>
+{"datePublished":"2021-11-26T00:00:00-06:00","url":"https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html","@type":"BlogPosting","dateModified":"2021-11-26T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://david-charles-king.github.io/Deep-Learning-Blog/reflection/2021/11/26/Chapter-2.html"},"headline":"Chapter 2","description":"My thoughts on the course so far and answers to the questionnaire","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Deep-Learning-Blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://david-charles-king.github.io/Deep-Learning-Blog/feed.xml" title="Deep Learning with Dave" /><link rel="shortcut icon" type="image/x-icon" href="/Deep-Learning-Blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,13 +71,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Thoughts after Chapter 2</h1><p class="page-description">My thoughts on the course so far</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-11-26T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Chapter 2</h1><p class="page-description">My thoughts on the course so far and answers to the questionnaire</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-11-26T00:00:00-06:00" itemprop="datePublished">
         Nov 26, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      8 min read
     
 </span></p>
 
@@ -86,7 +86,8 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I was surprised at how image recognizers learn to see different patterns in different
+    <h2 id="my-thoughts-on-the-course-so-far">My thoughts on the course so far</h2>
+<p>I was surprised at how image recognizers learn to see different patterns in different
 layers of the CNN (page 34 - 36 in the book). I found it amazing to get an idea of
 what’s going on inside the model when it is classifying images.</p>
 
@@ -95,6 +96,153 @@ Machine Learning systems, for example the discussion of how ‘predictive polici
 algorithms can cause a feedback loop and reinforce existing biases. For example in the
 US there is a bias in arrest rates based on race, and predictive policing algorithms
 could reinforce these biases.</p>
+
+<h2 id="my-questionnaire-answers">My questionnaire answers</h2>
+<ol>
+  <li>Provide an example of where the bear classification model might work poorly in production, due to structural or style differences in the training data.
+    <ul>
+      <li>When in production, the model may see bears in positions which are rarely seen in the training data, because the training data comes from photos people post online. For example in production the model may see bears from behind or partially covered by bushes.</li>
+    </ul>
+  </li>
+  <li>Where do text models currently have a major deficiency?
+    <ul>
+      <li>Although Deep Learning is good at generating context-appropriate text such as a convincing reply to a social media post, Deep learning is not currently good at generating factually correct content. For example, we don’t have a reliable way to combine a knowledge base of medical information with a deep learning model to generate medically correct text, such as answers questions posted by patients in an app.</li>
+    </ul>
+  </li>
+  <li>What are possible negative societal implications of text generation models?
+    <ul>
+      <li>Politicians could use them to generate compelling social media material to influence voters, which is factually incorrect.</li>
+    </ul>
+  </li>
+  <li>In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?
+    <ul>
+      <li>Start with an entirely manual process, with the deep learning model not being used directly to drive any actions. The humans involved in the process should look at the output of the model and decide whether to take action. The model is simply an extra source of information for them.</li>
+    </ul>
+  </li>
+  <li>What kind of tabular data is deep learning particularly good at?
+    <ul>
+      <li>Where there are columns containing natural language (eg book reviews) and high-cardinality categorical columns (i.e. something containing a large number of discrete choices, such as product ID).</li>
+    </ul>
+  </li>
+  <li>What’s a key downside of directly using a deep learning model for recommendation systems?
+    <ul>
+      <li>They tell you which products a user may like, without considering if these recommendations would actually be helpful for the user. Eg if the user likes books by Terry Pratchett the system may recommend more books by Terry Pratchett, which may not be that helpful as the user may already be aware of those books. It may be more helpful if the system could recommend something similar to Terry Pratchett, but by a different author.</li>
+    </ul>
+  </li>
+  <li>What are the steps of the Drivetrain Approach?</li>
+  <li>Define objective: what outcome are you trying to achieve?</li>
+  <li>Levers: what actions can you take to better achieve that objective?</li>
+  <li>Data: what inputs can you collect in order to use the levers?</li>
+  <li>Models: a predictive model takes both the levers and any uncontrolled variables as inputs; the outputs from the models can be used to predict the final state of the objective.</li>
+  <li>How do the steps of the Drivetrain Approach map to a recommendation system?</li>
+  <li>Objective: drive additional sales (or engage users for a system like Spotify) by recommending them items they otherwise would not have been aware of.</li>
+  <li>Levers: rank the possible recommendations.</li>
+  <li>Data: conduct randomized experiments to collect data about a wide range of recommendations for a wide range of customers.</li>
+  <li>Models: build 2 models of purchase probabilities, conditional on seeing or not seeing a recommendation. The difference between these two probabilities is a utility function for a given recommendation to a customer. It is low in cases where the recommended item is already familiar to the customer and they don’t like it (both components are low because the user is unlikely to buy it, regardless of whether they see the recommendation), or if they would have bought it even without the recommendation (both components are large and cancel each other out).</li>
+  <li>Create an image recognition model using data you curate, and deploy it on the web.</li>
+  <li>What is <code class="language-plaintext highlighter-rouge">DataLoaders</code>?
+    <ul>
+      <li>A fastai class that stores multiple <code class="language-plaintext highlighter-rouge">DataLoaders</code> objects you pass to it. Normally you would pass it a <code class="language-plaintext highlighter-rouge">train</code> and a <code class="language-plaintext highlighter-rouge">valid</code>, but it’s possible to pass in as many as you like. The first two <code class="language-plaintext highlighter-rouge">DataLoaders</code> passed in (usually <code class="language-plaintext highlighter-rouge">train</code> and <code class="language-plaintext highlighter-rouge">valid</code>) are made available as properties.</li>
+    </ul>
+  </li>
+  <li>What four things do we need to tell fastai to create <code class="language-plaintext highlighter-rouge">DataLoaders</code>?
+    <ul>
+      <li>What kinds of data we’re working with (e.g. images)</li>
+      <li>How to get the list of items (e.g. get all images within a path)</li>
+      <li>How to label the items (e.g. the label is the folder name that the image came from)</li>
+      <li>How to create the validation set (e.g. take 20% of the data at random)</li>
+    </ul>
+  </li>
+  <li>What does the <code class="language-plaintext highlighter-rouge">splitter</code> parameter to <code class="language-plaintext highlighter-rouge">DataBlock</code> do?
+    <ul>
+      <li>It defines how to split the training and validation sets.</li>
+    </ul>
+  </li>
+  <li>How do we ensure a random split always gives the same validation set?
+    <ul>
+      <li>Fix the random seed</li>
+    </ul>
+  </li>
+  <li>What letters are often used to signify the independent and dependent variables?
+    <ul>
+      <li>Independent - <code class="language-plaintext highlighter-rouge">x</code></li>
+      <li>Dependent - <code class="language-plaintext highlighter-rouge">y</code></li>
+    </ul>
+  </li>
+  <li>What’s the difference between the crop, pad, and squish resize approaches? When might you choose one over the others?
+    <ul>
+      <li>Crop - crops the image to fit a square shape, using the full width or height of the image.</li>
+      <li>Pad - adds black strips to the tops or sides of the image to make it fit a square.</li>
+      <li>Squish - squish/stretch the image horizontally or vertically to make it fit a square.</li>
+      <li>There are scenarios where we may choose to use each, but what we usually do is to randomly crop different parts of the image and use different parts on each epoch of training our model.</li>
+    </ul>
+  </li>
+  <li>What is data augmentation? Why is it needed?
+    <ul>
+      <li>Creating random variations of our input data, so that they look different but the meaning of the data is unchanged. It is needed because untrained neural networks know nothing about how images behave. For example it will not recognize that if an image is rotated by one degree it is still the same image. So training the network with examples of images where the objects are in slightly different places and are slightly different sizes helps it to understand the basic concept of what an object is, and how it can appear in images.</li>
+    </ul>
+  </li>
+  <li>What is the difference between <code class="language-plaintext highlighter-rouge">item_tfms</code> and <code class="language-plaintext highlighter-rouge">batch_tfms</code>?
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">item_tfms</code> are <em>item transforms</em>, pieces of code that run on each individual item.</li>
+      <li><code class="language-plaintext highlighter-rouge">batch_tfms</code> are <em>batch transforms</em>, where we apply a piece of code to a batch of items at the same time. Using a GPU, this can save a lot of time.</li>
+    </ul>
+  </li>
+  <li>What is a confusion matrix?
+    <ul>
+      <li>A matrix which shows the actual and predicted labels. The diagonal cells of the matrix show images that were classified correctly, and the off-diagonal cells show images that were classified incorrectly.</li>
+    </ul>
+  </li>
+  <li>What does <code class="language-plaintext highlighter-rouge">export</code> save?
+    <ul>
+      <li>A <code class="language-plaintext highlighter-rouge">.pkl.</code>, or Pickle, file. This is a file created by pickle, a Python module that enabless objects to be serialized to files on disk and deserialized back into the program at runtime. It contains a byte stream that represents the objects.</li>
+    </ul>
+  </li>
+  <li>What is it called when we use a model for getting predictions, instead of training?
+    <ul>
+      <li>Inference</li>
+    </ul>
+  </li>
+  <li>What are IPython widgets?
+    <ul>
+      <li>GUI components that bring together JavaScript and Python functionality in a web browser, which can be created and used in a Jupyter notebook.</li>
+    </ul>
+  </li>
+  <li>When might you want to use CPU for deployment? When might GPU be better?
+    <ul>
+      <li>A CPU is fine for serving most models in production. A GPU might be better if you have a high-volume site.</li>
+    </ul>
+  </li>
+  <li>What are the downsides of deploying your app to a server, instead of to a client (or edge) device such as a phone or PC?
+    <ul>
+      <li>The app requires a network connection, and there will be some latency each time the model is called. If your app uses sensitive data users may be concerned about sending this to a remote server.</li>
+    </ul>
+  </li>
+  <li>What are three examples of problems that could occur when rolling out a bear warning system in practice?
+    <ul>
+      <li>It would need to deal with night time images, which may not appear in many online pictures of bears.</li>
+      <li>It may need to use low resolution camera images, which it may not have been trained on, and which provide less data for it to work with.</li>
+      <li>Results need to be returned fast enough so that action can be taken if required.</li>
+    </ul>
+  </li>
+  <li>What is “out-of-domain data”?
+    <ul>
+      <li>Data that the model sees in production which is very different to what it saw on training.</li>
+    </ul>
+  </li>
+  <li>What is “domain shift”?
+    <ul>
+      <li>When the type of data that the model sees changes over time. For example an insurance company may use a deep learning model in its pricing algorithm, but over time the types of customers that the company attracts may change so that the original training data is no longer relevant.</li>
+    </ul>
+  </li>
+  <li>What are the three steps in the deployment process?
+    <ul>
+      <li>Manual process - humans check all predictions.</li>
+      <li>Limited scope deployment - careful human supervision of actions taken.</li>
+      <li>Gradual expansion - expand time and geography of where the model is used. Ensure good reporting systems are in place.</li>
+    </ul>
+  </li>
+</ol>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
