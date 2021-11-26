@@ -134,16 +134,22 @@ could reinforce these biases.</p>
       <li>They tell you which products a user may like, without considering if these recommendations would actually be helpful for the user. Eg if the user likes books by Terry Pratchett the system may recommend more books by Terry Pratchett, which may not be that helpful as the user may already be aware of those books. It may be more helpful if the system could recommend something similar to Terry Pratchett, but by a different author.</li>
     </ul>
   </li>
-  <li>What are the steps of the Drivetrain Approach?</li>
-  <li>Define objective: what outcome are you trying to achieve?</li>
-  <li>Levers: what actions can you take to better achieve that objective?</li>
-  <li>Data: what inputs can you collect in order to use the levers?</li>
-  <li>Models: a predictive model takes both the levers and any uncontrolled variables as inputs; the outputs from the models can be used to predict the final state of the objective.</li>
-  <li>How do the steps of the Drivetrain Approach map to a recommendation system?</li>
-  <li>Objective: drive additional sales (or engage users for a system like Spotify) by recommending them items they otherwise would not have been aware of.</li>
-  <li>Levers: rank the possible recommendations.</li>
-  <li>Data: conduct randomized experiments to collect data about a wide range of recommendations for a wide range of customers.</li>
-  <li>Models: build 2 models of purchase probabilities, conditional on seeing or not seeing a recommendation. The difference between these two probabilities is a utility function for a given recommendation to a customer. It is low in cases where the recommended item is already familiar to the customer and they don’t like it (both components are low because the user is unlikely to buy it, regardless of whether they see the recommendation), or if they would have bought it even without the recommendation (both components are large and cancel each other out).</li>
+  <li>What are the steps of the Drivetrain Approach?
+    <ol>
+      <li>Define objective: what outcome are you trying to achieve?</li>
+      <li>Levers: what actions can you take to better achieve that objective?</li>
+      <li>Data: what inputs can you collect in order to use the levers?</li>
+      <li>Models: a predictive model takes both the levers and any uncontrolled variables as inputs; the outputs from the models can be used to predict the final state of the objective.</li>
+    </ol>
+  </li>
+  <li>How do the steps of the Drivetrain Approach map to a recommendation system?
+    <ol>
+      <li>Objective: drive additional sales (or engage users for a system like Spotify) by recommending them items they otherwise would not have been aware of.</li>
+      <li>Levers: rank the possible recommendations.</li>
+      <li>Data: conduct randomized experiments to collect data about a wide range of recommendations for a wide range of customers.</li>
+      <li>Models: build 2 models of purchase probabilities, conditional on seeing or not seeing a recommendation. The difference between these two probabilities is a utility function for a given recommendation to a customer. It is low in cases where the recommended item is already familiar to the customer and they don’t like it (both components are low because the user is unlikely to buy it, regardless of whether they see the recommendation), or if they would have bought it even without the recommendation (both components are large and cancel each other out).</li>
+    </ol>
+  </li>
   <li>Create an image recognition model using data you curate, and deploy it on the web.</li>
   <li>What is <code class="language-plaintext highlighter-rouge">DataLoaders</code>?
     <ul>
