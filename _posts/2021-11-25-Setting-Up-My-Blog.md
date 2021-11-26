@@ -9,8 +9,6 @@ search_exclude: false
 categories: [setup, fastpages, fast_template]
 ---
 
-# Setting up my blog
-
 ## Choosing between fast_template and fastpages
 In Appendix A the [course
 book](https://www.amazon.co.uk/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)
